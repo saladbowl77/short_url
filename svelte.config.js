@@ -1,9 +1,9 @@
-import cloudflare from '@sveltejs/adapter-cloudflare'
+import adapter from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: cloudflare()
+		adapter: adapter()
 	}
 };
 
